@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="DATA_DO_ETIKETY" Datatype="Struct">
+      <Member Name="TEXT" Datatype="String[5]" />
+      <Member Name="INT" Datatype="Int" />
+      <Member Name="REAL" Datatype="Real" />
+      <Member Name="PROGRAM" Datatype="Array[0..1] of String[10]">
+        <Subelement Path="0">
+          <StartValue>'TEST_1'</StartValue>
+        </Subelement>
+        <Subelement Path="1">
+          <StartValue>'TEST_222'</StartValue>
+        </Subelement>
+      </Member>
+    </Member>
+    <Member Name="DATA_DO_DAT" Datatype="Struct">
+      <Member Name="ZAVORKA_L" Datatype="Char">
+        <StartValue>'&lt;'</StartValue>
+      </Member>
+      <Member Name="ZAVORKA_P" Datatype="Char">
+        <StartValue>'&gt;'</StartValue>
+      </Member>
+      <Member Name="XLP" Datatype="Array[0..3] of Char">
+        <Subelement Path="0">
+          <StartValue>'.'</StartValue>
+        </Subelement>
+        <Subelement Path="1">
+          <StartValue>'x'</StartValue>
+        </Subelement>
+        <Subelement Path="2">
+          <StartValue>'l'</StartValue>
+        </Subelement>
+        <Subelement Path="3">
+          <StartValue>'p'</StartValue>
+        </Subelement>
+      </Member>
+    </Member>
+    <Member Name="smaz_me_start" Datatype="Bool" />
+    <Member Name="smaz_me_adresa" Datatype="Int" />
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>100</MemoryReserve>
+      <Name>DB_LASER</Name>
+      <Namespace />
+      <Number>402</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

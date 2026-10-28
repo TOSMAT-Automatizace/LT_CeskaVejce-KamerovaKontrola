@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="recipe" Datatype="Struct">
+      <Member Name="Zprava" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">dvoumístné číslo přeneseno a doplněno po bytech do šablony zprávy</MultiLanguageText>
+        </Comment>
+        <StartValue>2</StartValue>
+      </Member>
+      <Member Name="PRG_CAM_etiketa" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">program v kameře která kontroluje papír co se vkládá pod folii</MultiLanguageText>
+        </Comment>
+        <StartValue>1</StartValue>
+      </Member>
+      <Member Name="PRG_CAM_folie" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">kamery kontrolující folii </MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="vyrazovac_on_off" Datatype="Bool">
+        <Comment>
+          <MultiLanguageText Lang="en-US">false - neposílat signál pro vyřazovač</MultiLanguageText>
+        </Comment>
+        <StartValue>true</StartValue>
+      </Member>
+      <Member Name="variabilni_pole_on_off" Datatype="Bool">
+        <Comment>
+          <MultiLanguageText Lang="en-US">false - neposílat variabilní pole </MultiLanguageText>
+        </Comment>
+        <StartValue>true</StartValue>
+      </Member>
+      <Member Name="pole_string_1" Datatype="String[20]">
+        <Comment>
+          <MultiLanguageText Lang="en-US">textove_pole - není bráno z receptůry ale volně zadatalné </MultiLanguageText>
+        </Comment>
+        <StartValue>'Ceska republika'</StartValue>
+      </Member>
+      <Member Name="pole_string_2" Datatype="String[10]">
+        <Comment>
+          <MultiLanguageText Lang="en-US">textove_pole - není bráno z receptůry ale volně zadatalné </MultiLanguageText>
+        </Comment>
+      </Member>
+    </Member>
+    <Member Name="fronta" Datatype="Array[1..5] of Struct">
+      <Member Name="prenaseny_text" Datatype="String[100]">
+        <Comment>
+          <MultiLanguageText Lang="en-US">načtený text kamerou </MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="balik_den" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">aktualni číslo plata</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="vyrazeni" Datatype="Bool">
+        <Comment>
+          <MultiLanguageText Lang="en-US">vyřazení </MultiLanguageText>
+        </Comment>
+      </Member>
+    </Member>
+    <Member Name="obsazenost_fronty" Datatype="Int" />
+    <Member Name="ODESLI_dATA" Datatype="Bool" />
+    <Member Name="VZDALENOST_KAMERA_ETIKETA_POZADOVANA" Datatype="DInt">
+      <StartValue>20</StartValue>
+    </Member>
+    <Member Name="VZDALENOST_KAMERY_FOLIE_POZADOVANA" Datatype="DInt">
+      <StartValue>150</StartValue>
+    </Member>
+    <Member Name="meze" Datatype="DInt">
+      <StartValue>35</StartValue>
+    </Member>
+    <Member Name="aktualni_poloha" Datatype="DInt" />
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>100</MemoryReserve>
+      <Name>DB_HMI_recype</Name>
+      <Namespace />
+      <Number>2</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <InstanceOfName>CONTROL_LINE</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="TIMER_reset" Datatype="TON_TIME" Version="1.0">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="P_TRIG_INICIAL" Datatype="Bool" />
+    <Member Name="P_TRIG_RESET" Datatype="Bool" />
+    <Member Name="AUTOMAT" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="MANUAL" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_3" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_4" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_5" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_6" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_7" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_8" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_9" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_10" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SENSOR_11" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="dvere_L_A" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="dvere_L_B" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="dvere_P_A" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="dvere_P_B" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SEN_STRUCT" Datatype="Struct">
+      <Member Name="AUTOMAT" Datatype="Bool" />
+      <Member Name="AUTOMAT_NEG" Datatype="Bool" />
+      <Member Name="MANUAL" Datatype="Bool" />
+      <Member Name="MANUAL_NEG" Datatype="Bool" />
+      <Member Name="SENSOR_TLAKU" Datatype="Bool" />
+      <Member Name="SENSOR_TLAKU_NEG" Datatype="Bool" />
+      <Member Name="power" Datatype="Bool" />
+      <Member Name="power_neg" Datatype="Bool" />
+      <Member Name="safety" Datatype="Bool" />
+      <Member Name="safety_neg" Datatype="Bool" />
+      <Member Name="s_10" Datatype="Bool" />
+      <Member Name="TLA_STOP" Datatype="Bool" />
+      <Member Name="TLA_STOP_NEG" Datatype="Bool" />
+      <Member Name="TLA_START" Datatype="Bool" />
+      <Member Name="TLA_START_NEG" Datatype="Bool" />
+      <Member Name="TLA_KVIT" Datatype="Bool" />
+      <Member Name="TLA_KVIT_NEG" Datatype="Bool" />
+      <Member Name="s_17" Datatype="Bool" />
+      <Member Name="S19" Datatype="Bool" />
+      <Member Name="L1_OK" Datatype="Bool" />
+      <Member Name="L1_NOT_OK" Datatype="Bool" />
+      <Member Name="L2_OK" Datatype="Bool" />
+      <Member Name="L2_NOT_OK" Datatype="Bool" />
+      <Member Name="L3_OK" Datatype="Bool" />
+      <Member Name="L3_NOT_OK" Datatype="Bool" />
+      <Member Name="dvere_L_A" Datatype="Bool" />
+      <Member Name="dvere_L_B" Datatype="Bool" />
+      <Member Name="dvere_P_A" Datatype="Bool" />
+      <Member Name="dvere_P_B" Datatype="Bool" />
+      <Member Name="S30" Datatype="Bool" />
+      <Member Name="S31" Datatype="Bool" />
+      <Member Name="LASER_MEMOR" Datatype="Bool" />
+    </Member>
+    <Member Name="M" Datatype="Struct">
+      <Member Name="P_TRIK_hmi_manual" Datatype="Bool" />
+      <Member Name="p_trig_hmi_automat" Datatype="Bool" />
+      <Member Name="N_TRIG_REZIM" Datatype="Bool" />
+      <Member Name="M_4" Datatype="Bool" />
+      <Member Name="hlaseni_chyby" Datatype="Bool" />
+      <Member Name="M_6" Datatype="Bool" />
+      <Member Name="M_7" Datatype="Bool" />
+      <Member Name="M_8" Datatype="Bool" />
+      <Member Name="M_9" Datatype="Bool" />
+      <Member Name="p_Trig_al" Datatype="Bool" />
+      <Member Name="n_trig_al" Datatype="Bool" />
+      <Member Name="p_trig_wro" Datatype="Bool" />
+      <Member Name="n_trig_wro" Datatype="Bool" />
+      <Member Name="M_14" Datatype="Bool" />
+      <Member Name="M_15" Datatype="Bool" />
+      <Member Name="N_TRIG_MANUAL" Datatype="Bool" />
+      <Member Name="M_17" Datatype="Bool" />
+      <Member Name="M_18" Datatype="Bool" />
+      <Member Name="M_19" Datatype="Bool" />
+      <Member Name="M_20" Datatype="Bool" />
+      <Member Name="M_21" Datatype="Bool" />
+      <Member Name="M_22" Datatype="Bool" />
+      <Member Name="M_23" Datatype="Bool" />
+      <Member Name="M_24" Datatype="Bool" />
+      <Member Name="M_25" Datatype="Bool" />
+      <Member Name="M_26" Datatype="Bool" />
+      <Member Name="M_27" Datatype="Bool" />
+      <Member Name="M_28" Datatype="Bool" />
+      <Member Name="M_29" Datatype="Bool" />
+      <Member Name="M_30" Datatype="Bool" />
+      <Member Name="M_31" Datatype="Bool" />
+      <Member Name="M_32" Datatype="Bool" />
+    </Member>
+    <Member Name="trig" Datatype="Struct">
+      <Member Name="reset_error_all" Datatype="Bool" />
+      <Member Name="TRIG_FOR_OP_4_AUTOMAT" Datatype="Bool" />
+      <Member Name="t_3" Datatype="Bool" />
+      <Member Name="t_4" Datatype="Bool" />
+      <Member Name="t_5" Datatype="Bool" />
+      <Member Name="t_6" Datatype="Bool" />
+      <Member Name="t_7" Datatype="Bool" />
+      <Member Name="t_8" Datatype="Bool" />
+    </Member>
+    <Member Name="SQCR" Datatype="Int" />
+    <Member Name="job_mailbox" Datatype="Array[0..3] of Word" />
+    <Member Name="n_trig_res_auit" Datatype="Bool" />
+    <Member Name="inicial_control" Datatype="TON_TIME" Version="1.0">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SQCR_SAFETY" Datatype="Int">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="n_trig_RESET_AUT" Datatype="Bool" />
+    <Member Name="P_TRIG_RESET_SAFETY" Datatype="Bool" />
+    <Member Name="air" Datatype="TON_TIME" Version="1.0">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="HMI_ALARM" Datatype="Int">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <Name>CONTROL_LINE_DB</Name>
+      <Namespace />
+      <Number>27</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>

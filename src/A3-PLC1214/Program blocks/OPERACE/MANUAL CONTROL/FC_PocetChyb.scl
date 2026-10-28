@@ -1,0 +1,52 @@
+﻿FUNCTION "FC_PocetChyb" : Int
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      A : String;
+      B : String;
+   END_VAR
+
+   VAR_TEMP 
+      la : Int;
+      lb : Int;
+      i : Int;
+      j : Int;
+      v : Int;
+      prev : Array[0..40] of Int;
+      cur : Array[0..40] of Int;
+   END_VAR
+
+
+BEGIN
+	// Pocet chyb mezi texty A a B (kolik znaku zamenit / vlozit / smazat).
+	// 0 = texty jsou shodne. Porovnava se max. 40 znaku kvuli dobe cyklu.
+	#la := MIN(IN1 := LEN(#A), IN2 := 40);
+	#lb := MIN(IN1 := LEN(#B), IN2 := 40);
+	
+	FOR #j := 0 TO #lb DO
+	    #prev[#j] := #j;
+	END_FOR;
+	
+	FOR #i := 1 TO #la DO
+	    #cur[0] := #i;
+	    FOR #j := 1 TO #lb DO
+	        #v := #prev[#j - 1];                // shoda / zamena znaku
+	        IF #A[#i] <> #B[#j] THEN
+	            #v := #v + 1;
+	        END_IF;
+	        IF #prev[#j] + 1 < #v THEN          // znak navic
+	            #v := #prev[#j] + 1;
+	        END_IF;
+	        IF #cur[#j - 1] + 1 < #v THEN       // chybejici znak
+	            #v := #cur[#j - 1] + 1;
+	        END_IF;
+	        #cur[#j] := #v;
+	    END_FOR;
+	    FOR #j := 0 TO #lb DO
+	        #prev[#j] := #cur[#j];
+	    END_FOR;
+	END_FOR;
+	
+	#FC_PocetChyb := #prev[#lb];
+END_FUNCTION
+

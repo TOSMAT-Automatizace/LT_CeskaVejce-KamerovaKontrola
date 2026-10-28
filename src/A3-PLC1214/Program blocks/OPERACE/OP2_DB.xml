@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <InstanceOfName>OP2</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="CONTROL_MAN" Datatype="Struct">
+      <Member Name="B0" Datatype="Bool" />
+      <Member Name="B1" Datatype="Bool" />
+      <Member Name="B2" Datatype="Bool" />
+      <Member Name="B3" Datatype="Bool" />
+      <Member Name="B4" Datatype="Bool" />
+      <Member Name="B5" Datatype="Bool" />
+      <Member Name="B6" Datatype="Bool" />
+      <Member Name="B7" Datatype="Bool" />
+      <Member Name="B8" Datatype="Bool" />
+      <Member Name="B9" Datatype="Bool" />
+      <Member Name="odfuk_1" Datatype="Bool" />
+      <Member Name="odfuk_2" Datatype="Bool" />
+      <Member Name="B12" Datatype="Bool" />
+      <Member Name="B13" Datatype="Bool" />
+      <Member Name="B14" Datatype="Bool" />
+      <Member Name="B15" Datatype="Bool" />
+      <Member Name="B16" Datatype="Bool" />
+      <Member Name="B17" Datatype="Bool" />
+      <Member Name="B18" Datatype="Bool" />
+      <Member Name="B19" Datatype="Bool" />
+      <Member Name="B20" Datatype="Bool" />
+      <Member Name="B21" Datatype="Bool" />
+      <Member Name="B22" Datatype="Bool" />
+      <Member Name="B23" Datatype="Bool" />
+      <Member Name="B24" Datatype="Bool" />
+      <Member Name="B25" Datatype="Bool" />
+      <Member Name="B26" Datatype="Bool" />
+      <Member Name="B27" Datatype="Bool" />
+      <Member Name="B28" Datatype="Bool" />
+      <Member Name="B29" Datatype="Bool" />
+      <Member Name="B30" Datatype="Bool" />
+      <Member Name="B31" Datatype="Bool" />
+    </Member>
+    <Member Name="CONTROL_AUTOMAT" Datatype="Struct">
+      <Member Name="connect" Datatype="Bool" />
+      <Member Name="send" Datatype="Bool" />
+      <Member Name="reciv" Datatype="Bool" />
+      <Member Name="trcv" Datatype="Bool" />
+      <Member Name="discon" Datatype="Bool" />
+      <Member Name="B5" Datatype="Bool" />
+      <Member Name="B6" Datatype="Bool" />
+      <Member Name="B7" Datatype="Bool" />
+      <Member Name="B8" Datatype="Bool" />
+      <Member Name="B9" Datatype="Bool" />
+      <Member Name="B10" Datatype="Bool" />
+      <Member Name="B11" Datatype="Bool" />
+      <Member Name="B12" Datatype="Bool" />
+      <Member Name="B13" Datatype="Bool" />
+      <Member Name="B14" Datatype="Bool" />
+      <Member Name="B15" Datatype="Bool" />
+      <Member Name="B16" Datatype="Bool" />
+      <Member Name="B17" Datatype="Bool" />
+      <Member Name="B18" Datatype="Bool" />
+      <Member Name="B19" Datatype="Bool" />
+      <Member Name="B20" Datatype="Bool" />
+      <Member Name="B21" Datatype="Bool" />
+      <Member Name="B22" Datatype="Bool" />
+      <Member Name="B23" Datatype="Bool" />
+      <Member Name="B24" Datatype="Bool" />
+      <Member Name="B25" Datatype="Bool" />
+      <Member Name="B26" Datatype="Bool" />
+      <Member Name="B27" Datatype="Bool" />
+      <Member Name="B28" Datatype="Bool" />
+      <Member Name="B29" Datatype="Bool" />
+      <Member Name="B30" Datatype="Bool" />
+      <Member Name="B31" Datatype="Bool" />
+    </Member>
+    <Member Name="SENSORS" Datatype="Struct">
+      <Member Name="S0" Datatype="Bool" />
+      <Member Name="S1" Datatype="Bool" />
+      <Member Name="S2" Datatype="Bool" />
+      <Member Name="S3" Datatype="Bool" />
+      <Member Name="S4" Datatype="Bool" />
+      <Member Name="S5" Datatype="Bool" />
+      <Member Name="S6" Datatype="Bool" />
+      <Member Name="S7" Datatype="Bool" />
+      <Member Name="S8" Datatype="Bool" />
+      <Member Name="S9" Datatype="Bool" />
+      <Member Name="S10" Datatype="Bool" />
+      <Member Name="S11" Datatype="Bool" />
+      <Member Name="S12" Datatype="Bool" />
+      <Member Name="S13" Datatype="Bool" />
+      <Member Name="S14" Datatype="Bool" />
+      <Member Name="S15" Datatype="Bool" />
+      <Member Name="S16" Datatype="Bool" />
+      <Member Name="S17" Datatype="Bool" />
+      <Member Name="S18" Datatype="Bool" />
+      <Member Name="S19" Datatype="Bool" />
+      <Member Name="S20" Datatype="Bool" />
+      <Member Name="S21" Datatype="Bool" />
+      <Member Name="S22" Datatype="Bool" />
+      <Member Name="S23" Datatype="Bool" />
+      <Member Name="S24" Datatype="Bool" />
+      <Member Name="S25" Datatype="Bool" />
+      <Member Name="S26" Datatype="Bool" />
+      <Member Name="S27" Datatype="Bool" />
+      <Member Name="S28" Datatype="Bool" />
+      <Member Name="S29" Datatype="Bool" />
+      <Member Name="S30" Datatype="Bool" />
+      <Member Name="S31" Datatype="Bool" />
+    </Member>
+    <Member Name="SENSORS_1" Datatype="Struct">
+      <Member Name="S0" Datatype="Bool" />
+      <Member Name="S1" Datatype="Bool" />
+      <Member Name="S2" Datatype="Bool" />
+      <Member Name="S3" Datatype="Bool" />
+      <Member Name="S4" Datatype="Bool" />
+      <Member Name="S5" Datatype="Bool" />
+      <Member Name="S6" Datatype="Bool" />
+      <Member Name="S7" Datatype="Bool" />
+      <Member Name="S8" Datatype="Bool" />
+      <Member Name="S9" Datatype="Bool" />
+      <Member Name="S10" Datatype="Bool" />
+      <Member Name="S11" Datatype="Bool" />
+      <Member Name="S12" Datatype="Bool" />
+      <Member Name="S13" Datatype="Bool" />
+      <Member Name="S14" Datatype="Bool" />
+      <Member Name="S15" Datatype="Bool" />
+      <Member Name="S16" Datatype="Bool" />
+      <Member Name="S17" Datatype="Bool" />
+      <Member Name="S18" Datatype="Bool" />
+      <Member Name="S19" Datatype="Bool" />
+      <Member Name="S20" Datatype="Bool" />
+      <Member Name="S21" Datatype="Bool" />
+      <Member Name="S22" Datatype="Bool" />
+      <Member Name="S23" Datatype="Bool" />
+      <Member Name="S24" Datatype="Bool" />
+      <Member Name="S25" Datatype="Bool" />
+      <Member Name="S26" Datatype="Bool" />
+      <Member Name="S27" Datatype="Bool" />
+      <Member Name="S28" Datatype="Bool" />
+      <Member Name="S29" Datatype="Bool" />
+      <Member Name="S30" Datatype="Bool" />
+      <Member Name="S31" Datatype="Bool" />
+    </Member>
+    <Member Name="S_0" Datatype="&quot;SENSOR&quot;" />
+    <Member Name="S_1" Datatype="&quot;SENSOR&quot;" />
+    <Member Name="S_2" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_3" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_4" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_5" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_6" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_7" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_8" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_9" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_10" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_11" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_12" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_13" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_14" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_15" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="S_16" Datatype="&quot;SENSOR&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="M_1" Datatype="&quot;MOTOR_CONTROL_BLOCK&quot;" />
+    <Member Name="M_2" Datatype="&quot;MOTOR_CONTROL_BLOCK&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="M_3" Datatype="&quot;MOTOR_CONTROL_BLOCK&quot;">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="SQCR" Datatype="Int">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="hmi_sqcr" Datatype="Int" />
+    <Member Name="TRIG" Datatype="Struct">
+      <Member Name="inicial_ok_op" Datatype="Bool" />
+      <Member Name="T2" Datatype="Bool" />
+      <Member Name="T3" Datatype="Bool" />
+      <Member Name="T4" Datatype="Bool" />
+      <Member Name="T5" Datatype="Bool" />
+      <Member Name="T6" Datatype="Bool" />
+      <Member Name="T7" Datatype="Bool" />
+      <Member Name="T8" Datatype="Bool" />
+      <Member Name="T9" Datatype="Bool" />
+      <Member Name="T10" Datatype="Bool" />
+      <Member Name="T11" Datatype="Bool" />
+      <Member Name="T12" Datatype="Bool" />
+      <Member Name="T13" Datatype="Bool" />
+      <Member Name="T14" Datatype="Bool" />
+      <Member Name="T15" Datatype="Bool" />
+      <Member Name="T16" Datatype="Bool" />
+      <Member Name="op_1_ready" Datatype="Bool" />
+    </Member>
+    <Member Name="MEMOR" Datatype="Struct">
+      <Member Name="n_trig_vypnuti" Datatype="Bool" />
+      <Member Name="M1" Datatype="Bool" />
+      <Member Name="M2" Datatype="Bool" />
+      <Member Name="M3" Datatype="Bool" />
+      <Member Name="M4" Datatype="Bool" />
+      <Member Name="p_trig_odavacka" Datatype="Bool" />
+      <Member Name="M6" Datatype="Bool" />
+      <Member Name="M7" Datatype="Bool" />
+      <Member Name="M8" Datatype="Bool" />
+      <Member Name="M9" Datatype="Bool" />
+      <Member Name="M10" Datatype="Bool" />
+      <Member Name="M11" Datatype="Bool" />
+      <Member Name="RESET_ERROR" Datatype="Bool" />
+      <Member Name="M13" Datatype="Bool" />
+      <Member Name="M14" Datatype="Bool" />
+      <Member Name="M15" Datatype="Bool" />
+      <Member Name="SETOVANI_START" Datatype="Bool" />
+      <Member Name="M17" Datatype="Bool" />
+      <Member Name="M18" Datatype="Bool" />
+      <Member Name="M19" Datatype="Bool" />
+      <Member Name="M20" Datatype="Bool" />
+      <Member Name="M21" Datatype="Bool" />
+      <Member Name="M22" Datatype="Bool" />
+      <Member Name="M23" Datatype="Bool" />
+      <Member Name="M24" Datatype="Bool" />
+      <Member Name="M25" Datatype="Bool" />
+      <Member Name="M26" Datatype="Bool" />
+      <Member Name="M27" Datatype="Bool" />
+      <Member Name="M28" Datatype="Bool" />
+      <Member Name="M29" Datatype="Bool" />
+      <Member Name="M30" Datatype="Bool" />
+      <Member Name="N_TRIG_SAFETY" Datatype="Bool" />
+      <Member Name="M32" Datatype="Bool" />
+      <Member Name="M33" Datatype="Bool" />
+      <Member Name="start_caklu" Datatype="Bool" />
+      <Member Name="M35" Datatype="Bool" />
+      <Member Name="M36" Datatype="Bool" />
+      <Member Name="M37" Datatype="Bool" />
+      <Member Name="M38" Datatype="Bool" />
+      <Member Name="M39" Datatype="Bool" />
+      <Member Name="ALARM_GLOBAL" Datatype="Bool" />
+      <Member Name="M41" Datatype="Bool" />
+      <Member Name="M42" Datatype="Bool" />
+      <Member Name="M43" Datatype="Bool" />
+      <Member Name="M44" Datatype="Bool" />
+      <Member Name="M45" Datatype="Bool" />
+      <Member Name="M46" Datatype="Bool" />
+      <Member Name="M47" Datatype="Bool" />
+      <Member Name="M48" Datatype="Bool" />
+      <Member Name="M49" Datatype="Bool" />
+      <Member Name="wrong_p_trig" Datatype="Bool" />
+      <Member Name="alarm_p_trig" Datatype="Bool" />
+      <Member Name="M52" Datatype="Bool" />
+      <Member Name="M53" Datatype="Bool" />
+      <Member Name="M54" Datatype="Bool" />
+      <Member Name="M55" Datatype="Bool" />
+      <Member Name="M56" Datatype="Bool" />
+      <Member Name="M57" Datatype="Bool" />
+      <Member Name="M58" Datatype="Bool" />
+      <Member Name="M59" Datatype="Bool" />
+      <Member Name="M60" Datatype="Bool" />
+      <Member Name="M61" Datatype="Bool" />
+      <Member Name="M62" Datatype="Bool" />
+      <Member Name="M63" Datatype="Bool" />
+    </Member>
+    <Member Name="TIMER" Datatype="Struct">
+      <Member Name="TIMER_0" Datatype="IEC_TIMER" Version="1.0" />
+      <Member Name="TIMER_1" Datatype="IEC_TIMER" Version="1.0" />
+      <Member Name="TIMER_2" Datatype="IEC_TIMER" Version="1.0" />
+      <Member Name="TIMER_3" Datatype="IEC_TIMER" Version="1.0" />
+      <Member Name="TIMER_4" Datatype="IEC_TIMER" Version="1.0" />
+      <Member Name="air" Datatype="IEC_TIMER" Version="1.0" />
+      <Member Name="TIMER_6" Datatype="IEC_TIMER" Version="1.0" />
+      <Member Name="TIMER_7" Datatype="IEC_TIMER" Version="1.0" />
+    </Member>
+    <Member Name="HMI" Datatype="Struct">
+      <Member Name="povoleni_volby_receptu" Datatype="Bool" />
+      <Member Name="svetlo_on/off" Datatype="Bool" />
+      <Member Name="ALARM_VIDITELNOST" Datatype="Bool" />
+      <Member Name="hmi_3" Datatype="Bool" />
+      <Member Name="hmi_4" Datatype="Bool" />
+      <Member Name="hmi_5" Datatype="Bool" />
+      <Member Name="hmi_6" Datatype="Bool" />
+      <Member Name="hmi_7" Datatype="Bool" />
+      <Member Name="hmi_8" Datatype="Bool" />
+      <Member Name="hmi_9" Datatype="Bool" />
+      <Member Name="hmi_10" Datatype="Bool" />
+      <Member Name="hmi_11" Datatype="Bool" />
+      <Member Name="hmi_12" Datatype="Bool" />
+      <Member Name="hmi_13" Datatype="Bool" />
+      <Member Name="hmi_14" Datatype="Bool" />
+      <Member Name="hmi_15" Datatype="Bool" />
+    </Member>
+    <Member Name="int_hodnota_zpravy" Datatype="Word">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="CTRV_LEN" Datatype="UDInt">
+      <AttributeList>
+        <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+        <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+        <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="TCON_Instance" Datatype="TCON" Version="4.0">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="TSEND_Instance" Datatype="TSEND" Version="4.0">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="TRCV_Instance" Datatype="TRCV" Version="4.0">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="TDISCON_Instance" Datatype="TDISCON" Version="2.1">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="Tisk" Datatype="Struct">
+      <Member Name="pole2_index_bajt" Datatype="Int">
+        <StartValue>14</StartValue>
+      </Member>
+      <Member Name="pole2_index_hodnota" Datatype="Byte">
+        <StartValue>16#02</StartValue>
+      </Member>
+      <Member Name="datum_chyba" Datatype="Bool" />
+      <Member Name="pole2_kratky" Datatype="Bool" />
+      <Member Name="jeden_ramec" Datatype="Bool">
+        <StartValue>true</StartValue>
+      </Member>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <Name>OP2_DB</Name>
+      <Namespace />
+      <Number>1</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>

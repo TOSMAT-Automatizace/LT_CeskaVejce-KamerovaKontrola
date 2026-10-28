@@ -1,0 +1,2080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="task" Datatype="Array[0..6, 0..255] of Byte">
+      <Subelement Path="0,0">
+        <Comment>
+          <MultiLanguageText Lang="en-US">get_status</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="0,1">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="0,2">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="0,3">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="0,4">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="0,5">
+        <StartValue>16#06</StartValue>
+      </Subelement>
+      <Subelement Path="0,6">
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="0,7">
+        <StartValue>16#64</StartValue>
+      </Subelement>
+      <Subelement Path="0,8">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="0,9">
+        <StartValue>16#02</StartValue>
+      </Subelement>
+      <Subelement Path="0,10">
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="0,11">
+        <StartValue>16#45</StartValue>
+      </Subelement>
+      <Subelement Path="0,255">
+        <Comment>
+          <MultiLanguageText Lang="en-US">get_status</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="1,0">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,1">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,2">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,3">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,4">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,5">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#0D</StartValue>
+      </Subelement>
+      <Subelement Path="1,6">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="1,7">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#64</StartValue>
+      </Subelement>
+      <Subelement Path="1,8">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,9">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#09</StartValue>
+      </Subelement>
+      <Subelement Path="1,10">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="1,11">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#20</StartValue>
+      </Subelement>
+      <Subelement Path="1,12">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#02</StartValue>
+      </Subelement>
+      <Subelement Path="1,13">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#13</StartValue>
+      </Subelement>
+      <Subelement Path="1,14">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,15">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,16">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,17">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,18">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="1,255">
+        <Comment>
+          <MultiLanguageText Lang="en-US">START_TISKU</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="2,0">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,1">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,2">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,3">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,4">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,5">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#0D</StartValue>
+      </Subelement>
+      <Subelement Path="2,6">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="2,7">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#64</StartValue>
+      </Subelement>
+      <Subelement Path="2,8">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,9">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#09</StartValue>
+      </Subelement>
+      <Subelement Path="2,10">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="2,11">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#20</StartValue>
+      </Subelement>
+      <Subelement Path="2,12">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#02</StartValue>
+      </Subelement>
+      <Subelement Path="2,13">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#13</StartValue>
+      </Subelement>
+      <Subelement Path="2,14">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,15">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,16">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,17">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="2,18">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="2,19">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="2,20">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="2,21">
+        <Comment>
+          <MultiLanguageText Lang="en-US">STOP_TISKU</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="3,0">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,1">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VÝBĚR ZPRÁVY</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,2">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VÝBĚR ZPRÁVY</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,3">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VÝBĚR ZPRÁVY</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,4">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,5">
+        <StartValue>16#1A</StartValue>
+      </Subelement>
+      <Subelement Path="3,6">
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="3,7">
+        <StartValue>16#64</StartValue>
+      </Subelement>
+      <Subelement Path="3,8">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,9">
+        <StartValue>16#16</StartValue>
+      </Subelement>
+      <Subelement Path="3,10">
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="3,11">
+        <StartValue>16#20</StartValue>
+      </Subelement>
+      <Subelement Path="3,12">
+        <StartValue>16#02</StartValue>
+      </Subelement>
+      <Subelement Path="3,13">
+        <StartValue>16#4C</StartValue>
+      </Subelement>
+      <Subelement Path="3,14">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,15">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,16">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,17">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,18">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="3,19">
+        <StartValue>16#0C</StartValue>
+      </Subelement>
+      <Subelement Path="3,20">
+        <StartValue>16#4D</StartValue>
+      </Subelement>
+      <Subelement Path="3,21">
+        <StartValue>16#53</StartValue>
+      </Subelement>
+      <Subelement Path="3,22">
+        <StartValue>16#47</StartValue>
+      </Subelement>
+      <Subelement Path="3,23">
+        <StartValue>16#30</StartValue>
+      </Subelement>
+      <Subelement Path="3,24">
+        <StartValue>16#30</StartValue>
+      </Subelement>
+      <Subelement Path="3,25">
+        <StartValue>16#30</StartValue>
+      </Subelement>
+      <Subelement Path="3,28">
+        <StartValue>16#2E</StartValue>
+      </Subelement>
+      <Subelement Path="3,29">
+        <StartValue>16#78</StartValue>
+      </Subelement>
+      <Subelement Path="3,30">
+        <StartValue>16#6D</StartValue>
+      </Subelement>
+      <Subelement Path="3,31">
+        <StartValue>16#6C</StartValue>
+      </Subelement>
+      <Subelement Path="4,0">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,1">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,2">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,3">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,4">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,5">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#3C</StartValue>
+      </Subelement>
+      <Subelement Path="4,6">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="4,7">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#64</StartValue>
+      </Subelement>
+      <Subelement Path="4,8">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,9">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#38</StartValue>
+      </Subelement>
+      <Subelement Path="4,10">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="4,11">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#CF</StartValue>
+      </Subelement>
+      <Subelement Path="4,12">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,13">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,14">
+        <Comment>
+          <MultiLanguageText Lang="en-US">VYPLNĚNÍ DAT MAX 30 ZNAKŮ DO JEDNOHO POLE AKTUÁLNĚ</MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,15">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,16">
+        <StartValue>16#1E</StartValue>
+      </Subelement>
+      <Subelement Path="4,17">
+        <StartValue>16#51</StartValue>
+      </Subelement>
+      <Subelement Path="4,18">
+        <StartValue>16#57</StartValue>
+      </Subelement>
+      <Subelement Path="4,19">
+        <StartValue>16#45</StartValue>
+      </Subelement>
+      <Subelement Path="4,20">
+        <StartValue>16#52</StartValue>
+      </Subelement>
+      <Subelement Path="4,21">
+        <StartValue>16#54</StartValue>
+      </Subelement>
+      <Subelement Path="4,22">
+        <StartValue>16#5A</StartValue>
+      </Subelement>
+      <Subelement Path="4,23">
+        <StartValue>16#55</StartValue>
+      </Subelement>
+      <Subelement Path="4,24">
+        <StartValue>16#49</StartValue>
+      </Subelement>
+      <Subelement Path="4,25">
+        <StartValue>16#4F</StartValue>
+      </Subelement>
+      <Subelement Path="4,26">
+        <StartValue>16#50</StartValue>
+      </Subelement>
+      <Subelement Path="4,27">
+        <StartValue>16#41</StartValue>
+      </Subelement>
+      <Subelement Path="4,28">
+        <StartValue>16#53</StartValue>
+      </Subelement>
+      <Subelement Path="4,29">
+        <StartValue>16#44</StartValue>
+      </Subelement>
+      <Subelement Path="4,30">
+        <StartValue>16#46</StartValue>
+      </Subelement>
+      <Subelement Path="4,31">
+        <StartValue>16#47</StartValue>
+      </Subelement>
+      <Subelement Path="4,32">
+        <StartValue>16#48</StartValue>
+      </Subelement>
+      <Subelement Path="4,33">
+        <StartValue>16#4A</StartValue>
+      </Subelement>
+      <Subelement Path="4,34">
+        <StartValue>16#4B</StartValue>
+      </Subelement>
+      <Subelement Path="4,35">
+        <StartValue>16#4C</StartValue>
+      </Subelement>
+      <Subelement Path="4,36">
+        <StartValue>16#59</StartValue>
+      </Subelement>
+      <Subelement Path="4,37">
+        <StartValue>16#58</StartValue>
+      </Subelement>
+      <Subelement Path="4,38">
+        <StartValue>16#43</StartValue>
+      </Subelement>
+      <Subelement Path="4,39">
+        <StartValue>16#56</StartValue>
+      </Subelement>
+      <Subelement Path="4,40">
+        <StartValue>16#42</StartValue>
+      </Subelement>
+      <Subelement Path="4,41">
+        <StartValue>16#4E</StartValue>
+      </Subelement>
+      <Subelement Path="4,42">
+        <StartValue>16#4D</StartValue>
+      </Subelement>
+      <Subelement Path="4,43">
+        <StartValue>16#31</StartValue>
+      </Subelement>
+      <Subelement Path="4,44">
+        <StartValue>16#32</StartValue>
+      </Subelement>
+      <Subelement Path="4,45">
+        <StartValue>16#33</StartValue>
+      </Subelement>
+      <Subelement Path="4,46">
+        <StartValue>16#34</StartValue>
+      </Subelement>
+      <Subelement Path="4,47">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,48">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,49">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,50">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,51">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,52">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,53">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,54">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,55">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,56">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,57">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,58">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,59">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,60">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,61">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,62">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,63">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,64">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="4,65">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,0">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,1">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,2">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,3">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,4">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,5">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#0D</StartValue>
+      </Subelement>
+      <Subelement Path="6,6">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="6,7">
+        <Comment>
+          <MultiLanguageText Lang="en-US">SMAZANÍ A PŘENASTAVENÍ ABY TISKÁRNA NEBAFROVALA ALE TISKLA ODESLANÁ DATA DO KOLA </MultiLanguageText>
+        </Comment>
+        <StartValue>16#64</StartValue>
+      </Subelement>
+      <Subelement Path="6,8">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,9">
+        <StartValue>16#09</StartValue>
+      </Subelement>
+      <Subelement Path="6,10">
+        <StartValue>16#01</StartValue>
+      </Subelement>
+      <Subelement Path="6,11">
+        <StartValue>16#CE</StartValue>
+      </Subelement>
+      <Subelement Path="6,12">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,13">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,14">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,15">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,16">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,17">
+        <StartValue>16#00</StartValue>
+      </Subelement>
+      <Subelement Path="6,18">
+        <StartValue>16#01</StartValue>
+      </Subelement>
+    </Member>
+    <Member Name="DATA" Datatype="Array[0..255] of Byte" />
+    <Member Name="ADRESACE_POLE" Datatype="Int">
+      <StartValue>1</StartValue>
+    </Member>
+    <Member Name="hodnota_pamet" Datatype="Int">
+      <StartValue>1</StartValue>
+    </Member>
+    <Member Name="cislo_zpravy" Datatype="Int">
+      <Comment>
+        <MultiLanguageText Lang="en-US">zpráva má pevný formát mění se pouze číslo které je odesíláno jako string před převedením do stringu je rozseknuto na byte a kopírováno jako jednotlyvý znak </MultiLanguageText>
+      </Comment>
+      <StartValue>2</StartValue>
+    </Member>
+    <Member Name="DATA_RECIVR" Datatype="Array[0..255] of Byte">
+      <Subelement Path="0">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="1">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="2">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="3">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="4">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="5">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="6">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="7">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="8">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="9">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="10">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="11">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="12">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="13">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="14">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="15">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="16">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="17">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="18">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="19">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="20">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="21">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="22">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="23">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="24">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="25">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="26">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="27">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="28">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="29">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="30">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="31">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="32">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="33">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="34">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="35">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="36">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="37">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="38">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="39">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="40">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="41">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="42">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="43">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="44">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="45">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="46">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="47">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="48">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="49">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="50">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="51">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="52">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="53">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="54">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="55">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="56">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="57">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="58">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="59">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="60">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="61">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="62">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="63">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="64">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="65">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="66">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="67">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="68">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="69">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="70">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="71">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="72">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="73">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="74">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="75">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="76">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="77">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="78">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="79">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="80">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="81">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="82">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="83">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="84">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="85">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="86">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="87">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="88">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="89">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="90">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="91">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="92">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="93">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="94">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="95">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="96">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="97">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="98">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="99">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="100">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="101">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="102">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="103">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="104">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="105">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="106">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="107">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="108">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="109">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="110">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="111">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="112">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="113">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="114">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="115">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="116">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="117">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="118">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="119">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="120">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="121">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="122">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="123">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="124">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="125">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="126">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="127">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="128">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="129">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="130">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="131">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="132">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="133">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="134">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="135">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="136">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="137">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="138">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="139">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="140">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="141">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="142">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="143">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="144">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="145">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="146">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="147">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="148">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="149">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="150">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="151">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="152">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="153">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="154">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="155">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="156">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="157">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="158">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="159">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="160">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="161">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="162">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="163">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="164">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="165">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="166">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="167">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="168">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="169">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="170">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="171">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="172">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="173">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="174">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="175">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="176">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="177">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="178">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="179">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="180">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="181">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="182">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="183">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="184">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="185">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="186">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="187">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="188">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="189">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="190">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="191">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="192">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="193">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="194">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="195">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="196">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="197">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="198">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="199">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="200">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="201">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="202">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="203">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="204">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="205">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="206">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="207">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="208">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="209">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="210">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="211">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="212">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="213">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="214">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="215">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="216">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="217">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="218">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="219">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="220">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="221">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#06</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="222">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="223">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="224">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="225">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#02</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="226">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="227">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#4F</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="228">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="229">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="230">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="231">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="232">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="233">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#07</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="234">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="235">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="236">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="237">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#03</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="238">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="239">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#31</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="240">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#04</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="241">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="242">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="243">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="244">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="245">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="246">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#07</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="247">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="248">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#64</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="249">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="250">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#03</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="251">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#01</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="252">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#45</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="253">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="254">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+      <Subelement Path="255">
+        <Comment>
+          <MultiLanguageText Lang="en-US">16#00</MultiLanguageText>
+        </Comment>
+      </Subelement>
+    </Member>
+    <Member Name="byte_1" Datatype="Byte">
+      <StartValue>16#30</StartValue>
+    </Member>
+    <Member Name="byte_2" Datatype="Byte">
+      <StartValue>16#32</StartValue>
+    </Member>
+    <Member Name="text_pole_1" Datatype="String[30]">
+      <Comment>
+        <MultiLanguageText Lang="en-US">pole jedno - odkud pochází </MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="text_pole_2" Datatype="String[10]">
+      <Comment>
+        <MultiLanguageText Lang="en-US">pole dvě - datum spotřeby požadovaný formát xx.xx.xxxx</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>0</MemoryReserve>
+      <Name>DB_prikazy_tiskarna</Name>
+      <Namespace />
+      <Number>4</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

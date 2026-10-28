@@ -1,0 +1,2611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Tags.PlcTagTable ID="0">
+    <AttributeList>
+      <Name>Laser_in_macsa</Name>
+    </AttributeList>
+    <ObjectList>
+      <SW.Tags.PlcTag ID="1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1583</LogicalAddress>
+          <Name>-XT500_d_counter</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>counter indicating the number of o.k. prints since entering into the printing mode</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1587</LogicalAddress>
+          <Name>-XT500_s_counter</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>counter indicating the number of prints since entering into the printing mode.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1591</LogicalAddress>
+          <Name>-XT500_messageport</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>indicates the bit combination of the external message selection (when external message mode is activated)</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1595</LogicalAddress>
+          <Name>-XT500_status_byte_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="10" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="11" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1596</LogicalAddress>
+          <Name>-XT500_status_byte_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="12" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="13" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="14" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>0x00: default value. -- 0x01: request; the system is requesting information to</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="15" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1597</LogicalAddress>
+          <Name>-XT500_status_byte_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="16" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="17" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="18" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>option byte; (internal use), indicates the type of</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="19" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1598</LogicalAddress>
+          <Name>-XT500_status_byte_3</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="1C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>0x00: default , system is in standard mode. 0x01: system is in external message selection mode  0x04: system is in a batch-job mode.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="1D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1599</LogicalAddress>
+          <Name>-XT500_t_counter</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="1E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="1F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="20" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>32-bit counter indicating the total number of prints of the laser system</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="21" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1603</LogicalAddress>
+          <Name>-XT500_copies</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="22" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="23" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="24" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>the actual number of print copies.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="25" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Word</DataTypeName>
+          <LogicalAddress>%IW1609</LogicalAddress>
+          <Name>-XT500_alarm_information</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="26" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="27" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="28" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>0X0000: no alarms --  0x0C0E: wrong messageport (no file found for the external message selection) -- 0x0848: alarms active; some alarms are active (interlock, shutter,....) --  0xFFFF: initialization of the firmware has failed  due to some hardware failure.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="29" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1611</LogicalAddress>
+          <Name>-XT500_prinntime</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="2C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>print time</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="2D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1616</LogicalAddress>
+          <Name>-XT500_alarm-mask</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="2E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="2F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="30" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>popis panel text end grafik list</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="31" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1619</LogicalAddress>
+          <Name>-XT500_signalstate</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="32" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="33" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="34" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="35" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1623</LogicalAddress>
+          <Name>-XT500_name_byte_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="36" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="37" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="38" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="39" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1624</LogicalAddress>
+          <Name>-XT500_name_byte_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="3C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="3D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1625</LogicalAddress>
+          <Name>-XT500_name_byte_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="3E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="3F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="40" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="41" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1626</LogicalAddress>
+          <Name>-XT500_name_byte_3</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="42" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="43" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="44" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="45" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1627</LogicalAddress>
+          <Name>-XT500_name_byte_4</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="46" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="47" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="48" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="49" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1628</LogicalAddress>
+          <Name>-XT500_name_byte_5</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="4B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="4C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="4D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1629</LogicalAddress>
+          <Name>-XT500_name_byte_6</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="4F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="50" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="51" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1630</LogicalAddress>
+          <Name>-XT500_name_byte_7</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="52" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="53" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="54" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="55" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1631</LogicalAddress>
+          <Name>-XT500_name_byte_8</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="56" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="57" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="58" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="59" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1632</LogicalAddress>
+          <Name>-XT500_name_byte_9</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="5A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="5C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="5D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1633</LogicalAddress>
+          <Name>-XT500_name_byte_10</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="5E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="60" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="61" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1634</LogicalAddress>
+          <Name>-XT500_name_byte_11</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="62" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="63" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="64" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="65" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1635</LogicalAddress>
+          <Name>-XT500_name_byte_12</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="66" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="67" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="68" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="69" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1636</LogicalAddress>
+          <Name>-XT500_name_byte_13</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="6B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="6C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="6D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1637</LogicalAddress>
+          <Name>-XT500_name_byte_14</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="6E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="6F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="70" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="71" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1638</LogicalAddress>
+          <Name>-XT500_name_byte_15</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="72" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="73" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="74" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the message.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="75" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1639</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="76" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="77" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="78" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="79" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1640</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="7A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="7B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="7C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="7D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1641</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="7E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="7F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="80" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="81" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1642</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_3</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="82" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="83" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="84" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="85" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1643</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_4</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="86" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="87" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="88" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="89" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1644</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_5</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="8A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="8B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="8C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="8D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1645</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_6</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="8E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="8F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="90" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="91" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1646</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_7</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="92" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="93" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="94" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="95" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1647</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_8</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="96" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="97" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="98" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="99" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1648</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_9</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="9B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="9C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="9D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1649</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_10</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="9F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="A0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1650</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_11</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="A2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="A4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1651</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_12</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="A6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="A8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1652</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_13</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="AA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="AB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="AC" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="AD" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1653</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_14</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="AE" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="AF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="B0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="B1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1654</LogicalAddress>
+          <Name>-XT500_eventhandler_byte_15</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="B3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="B4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>actual filename + extension of the eventhandler-file.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="B5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>DWord</DataTypeName>
+          <LogicalAddress>%ID1655</LogicalAddress>
+          <Name>-XT500_extended_alarm-mask</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="B7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="B8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>See Status command. When the alarm-mask has the ‘extended alarmmask’ rozepsano text list</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="B9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1659</LogicalAddress>
+          <Name>-XT500_not_used_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="BA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="BB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="BC" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="BD" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1660</LogicalAddress>
+          <Name>-XT500_not_used_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="BE" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="BF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="C0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="C1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1661</LogicalAddress>
+          <Name>-XT500_scanfield_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="C2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="C4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="C5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1662</LogicalAddress>
+          <Name>-XT500_scanfield_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="C6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="C8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="C9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%IB1663</LogicalAddress>
+          <Name>-XT500_data_recived_byte</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="CA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="CB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="CC" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>status</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="CD" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.0</LogicalAddress>
+          <Name>-XT500_data_recived_byte_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="CE" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="CF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="D0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>data ready</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.1</LogicalAddress>
+          <Name>-XT500_data_recived_byte_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="D2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="D3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="D4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>clear command error trigger</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.2</LogicalAddress>
+          <Name>-XT500_data_recived_byte_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="D6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="D7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="D8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.3</LogicalAddress>
+          <Name>-XT500_data_recived_byte_3</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="DA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="DB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="DC" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="DD" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.4</LogicalAddress>
+          <Name>-XT500_data_recived_byte_4</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="DE" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="DF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="E0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="E1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.5</LogicalAddress>
+          <Name>-XT500_data_recived_byte_5</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="E3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="E4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="E5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.6</LogicalAddress>
+          <Name>-XT500_data_recived_byte_6</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="E7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="E8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="E9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1663.7</LogicalAddress>
+          <Name>-XT500_data_recived_byte_7</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="EA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="EB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="EC" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="ED" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Word</DataTypeName>
+          <LogicalAddress>%IW1664</LogicalAddress>
+          <Name>-XT500_command_error_info</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="EE" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="EF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="F0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>command error info (0xFF == command</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="F1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.0</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="F2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="F4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>when set, system is in printing mode (waiting for photocell/PLC)</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="F5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.1</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="F6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="F8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>when set, system is actually printing a message</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="F9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.2</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="FA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="FB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="FC" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>when set, system is waiting for a 'alarm reset' signal (DSP cards only).</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="FD" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.3</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_3</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="FE" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="FF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="100" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>when set, system is waiting for an input signal (DSP cards only)</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="101" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.4</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_4</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="102" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="103" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="104" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>when set, system is waiting for an external motorized axis to reach a new position.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="105" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.5</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_5</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="106" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="107" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="108" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>when set, system is in ‘printsession’ mode.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="109" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.6</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_6</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="10A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="10B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="10C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>reserved</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="10D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1595.7</LogicalAddress>
+          <Name>-XT500_status_byte_0_bool_7</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="10E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="10F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="110" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>reserved</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="111" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.0</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_0</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="112" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="113" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="114" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="115" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.1</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="116" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="117" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="118" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="119" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.2</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="11A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="11B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="11C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="11D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.3</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_3</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="11E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="11F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="120" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="121" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.4</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_4</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="122" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="123" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="124" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="125" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.5</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_5</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="126" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="127" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="128" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="129" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.6</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_6</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="12A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="12B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="12C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="12D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1596.7</LogicalAddress>
+          <Name>-XT500_status_byte_1_bool_7</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="12E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="12F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="130" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="131" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.0</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_8</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="132" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="133" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="134" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="135" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.1</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_9</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="136" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="137" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="138" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="139" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.2</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_10</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="13A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="13B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="13C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>0: static</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="13D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.3</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_11</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="13E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="13F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="140" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>1: dynamic</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="141" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.4</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_12</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="142" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="143" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="144" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>2: dynamic-distance</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="145" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.5</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_13</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="146" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="147" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="148" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>3: static-dynamic</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="149" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.6</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_14</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="14A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="14B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="14C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>4: stepper mode</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="14D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1662.7</LogicalAddress>
+          <Name>-XT500_scanfield_1_bit_15</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="14E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="14F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="150" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>5: XY stepper mode</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="151" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1618.0</LogicalAddress>
+          <Name>-XT500_alarm-mask_interlock</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="152" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="153" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="154" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>interlock součást alarm-mask</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="155" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1618.3</LogicalAddress>
+          <Name>-XT500_alarm-mask_shutter</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="156" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="157" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="158" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>shutter součást alarm-mask oim</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="159" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1618.4</LogicalAddress>
+          <Name>-XT500_alarm-mask_laser_not_ready</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="15A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="15B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="15C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>laser nor ready součást alarm mask </Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="15D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1619.3</LogicalAddress>
+          <Name>-XT500_alarm-mask_laser_not_armed</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="15E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="15F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="160" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>laser nor armed součást alarm mask </Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="161" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1619.5</LogicalAddress>
+          <Name>-XT500_alarm_mas_warm_up_in_progres</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="162" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="163" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="164" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>warm_up_in_progres součást alarm mask </Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="165" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1618.1</LogicalAddress>
+          <Name>-XT500_alarm-mask_shutter_oim</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="166" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="167" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="168" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="169" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Word</DataTypeName>
+          <LogicalAddress>%IW1605</LogicalAddress>
+          <Name>-XT500_copies_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="16A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="16B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="16C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="16D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Word</DataTypeName>
+          <LogicalAddress>%IW1607</LogicalAddress>
+          <Name>-XT500_copies_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="16E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="16F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="170" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="171" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1618.2</LogicalAddress>
+          <Name>-XT500_Tag_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="172" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="173" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="174" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="175" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Word</DataTypeName>
+          <LogicalAddress>%IW1610</LogicalAddress>
+          <Name>-XT500_alarm_information(1)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="176" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="177" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="178" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>0X0000: no alarms --  0x0C0E: wrong messageport (no file found for the external message selection) -- 0x0848: alarms active; some alarms are active (interlock, shutter,....) --  0xFFFF: initialization of the firmware has failed  due to some hardware failure.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="179" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Word</DataTypeName>
+          <LogicalAddress>%IW1608</LogicalAddress>
+          <Name>-XT500_alarm_information(2)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="17A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="17B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="17C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>0X0000: no alarms --  0x0C0E: wrong messageport (no file found for the external message selection) -- 0x0848: alarms active; some alarms are active (interlock, shutter,....) --  0xFFFF: initialization of the firmware has failed  due to some hardware failure.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="17D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Word</DataTypeName>
+          <LogicalAddress>%IW1611</LogicalAddress>
+          <Name>-XT500_alarm_information(3)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="17E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="17F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="180" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>0X0000: no alarms --  0x0C0E: wrong messageport (no file found for the external message selection) -- 0x0848: alarms active; some alarms are active (interlock, shutter,....) --  0xFFFF: initialization of the firmware has failed  due to some hardware failure.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="181" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.0</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_1</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="182" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="183" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="184" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="185" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.1</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_2</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="186" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="187" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="188" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="189" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.2</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_3</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="18A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="18B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="18C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="18D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.3</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_4</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="18E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="18F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="190" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>neni_nahrato_1</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="191" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.4</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_5</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="192" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="193" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="194" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="195" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.5</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_6</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="196" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="197" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="198" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="199" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.6</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_7</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="19A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="19B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="19C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>neni_najrato_2</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="19D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1610.7</LogicalAddress>
+          <Name>-XT500_alarm_information_bool_8</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="19E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="19F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="1A0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+    </ObjectList>
+  </SW.Tags.PlcTagTable>
+</Document>

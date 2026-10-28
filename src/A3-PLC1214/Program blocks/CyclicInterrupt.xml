@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.OB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input">
+    <Member Name="Initial_Call" Datatype="Bool" Informative="true">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Initial call of this OB</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Event_Count" Datatype="Int" Informative="true">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Events discarded</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+  <Section Name="Temp">
+    <Member Name="AKTUALNI_POZICE_FOLIE" Datatype="DInt" />
+    <Member Name="AKTUALNI_POZICE_ETIKETA" Datatype="DInt" />
+  </Section>
+  <Section Name="Constant" />
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <Name>CyclicInterrupt</Name>
+      <Namespace />
+      <Number>30</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <SecondaryType>CyclicInterrupt</SecondaryType>
+      <SetENOAutomatically>false</SetENOAutomatically>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="4" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="RESERVE_DI_1" SimpleAccessModifier="Periphery" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="s2_hsc_hrana" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalConstant" UId="23">
+      <Constant Name="Local~HSC_1" />
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>FALSE</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Bool</ConstantType>
+        <ConstantValue>FALSE</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="reset_hsc" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="HSC_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="28">
+      <Constant>
+        <ConstantType>DWord</ConstantType>
+        <ConstantValue>0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="reset_hsc" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="30" />
+    <Part Name="PBox" UId="31" />
+    <Part Name="CTRL_HSC" Version="1.0" UId="32">
+      <Instance Scope="GlobalVariable" UId="33">
+        <Component Name="CTRL_HSC_dopravnik_DB" />
+      </Instance>
+    </Part>
+    <Part Name="Contact" UId="34" />
+    <Part Name="Eq" UId="35">
+      <TemplateValue Name="SrcType" Type="Type">DWord</TemplateValue>
+    </Part>
+    <Part Name="RCoil" UId="36" />
+  </Parts>
+  <Wires>
+    <Wire UId="44">
+      <Powerrail />
+      <NameCon UId="32" Name="en" />
+      <NameCon UId="30" Name="in" />
+      <NameCon UId="34" Name="in" />
+    </Wire>
+    <Wire UId="45">
+      <IdentCon UId="21" />
+      <NameCon UId="30" Name="operand" />
+    </Wire>
+    <Wire UId="46">
+      <NameCon UId="30" Name="out" />
+      <NameCon UId="31" Name="in" />
+    </Wire>
+    <Wire UId="47">
+      <IdentCon UId="22" />
+      <NameCon UId="31" Name="bit" />
+    </Wire>
+    <Wire UId="48">
+      <NameCon UId="31" Name="out" />
+      <NameCon UId="32" Name="CV" />
+    </Wire>
+    <Wire UId="49">
+      <IdentCon UId="23" />
+      <NameCon UId="32" Name="HSC" />
+    </Wire>
+    <Wire UId="50">
+      <IdentCon UId="24" />
+      <NameCon UId="32" Name="DIR" />
+    </Wire>
+    <Wire UId="51">
+      <OpenCon UId="37" />
+      <NameCon UId="32" Name="RV" />
+    </Wire>
+    <Wire UId="52">
+      <IdentCon UId="25" />
+      <NameCon UId="32" Name="PERIOD" />
+    </Wire>
+    <Wire UId="53">
+      <OpenCon UId="38" />
+      <NameCon UId="32" Name="NEW_DIR" />
+    </Wire>
+    <Wire UId="54">
+      <OpenCon UId="39" />
+      <NameCon UId="32" Name="NEW_CV" />
+    </Wire>
+    <Wire UId="55">
+      <OpenCon UId="40" />
+      <NameCon UId="32" Name="NEW_RV" />
+    </Wire>
+    <Wire UId="56">
+      <OpenCon UId="41" />
+      <NameCon UId="32" Name="NEW_PERIOD" />
+    </Wire>
+    <Wire UId="57">
+      <NameCon UId="32" Name="BUSY" />
+      <OpenCon UId="42" />
+    </Wire>
+    <Wire UId="58">
+      <NameCon UId="32" Name="STATUS" />
+      <OpenCon UId="43" />
+    </Wire>
+    <Wire UId="59">
+      <IdentCon UId="26" />
+      <NameCon UId="34" Name="operand" />
+    </Wire>
+    <Wire UId="60">
+      <NameCon UId="34" Name="out" />
+      <NameCon UId="35" Name="pre" />
+    </Wire>
+    <Wire UId="61">
+      <IdentCon UId="27" />
+      <NameCon UId="35" Name="in1" />
+    </Wire>
+    <Wire UId="62">
+      <IdentCon UId="28" />
+      <NameCon UId="35" Name="in2" />
+    </Wire>
+    <Wire UId="63">
+      <NameCon UId="35" Name="out" />
+      <NameCon UId="36" Name="in" />
+    </Wire>
+    <Wire UId="64">
+      <IdentCon UId="29" />
+      <NameCon UId="36" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="5" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="6" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="8" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="9" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="B" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><StructuredText xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/StructuredText/v4">
+  <Access Scope="GlobalVariable" UId="21">
+    <Symbol UId="22">
+      <Component Name="DB_HMI_recype" UId="23">
+        <BooleanAttribute Name="HasQuotes" UId="24">true</BooleanAttribute>
+      </Component>
+      <Token Text="." UId="25" />
+      <Component Name="aktualni_poloha" UId="26" />
+    </Symbol>
+  </Access>
+  <Blank UId="27" />
+  <Token Text=":=" UId="28" />
+  <Blank UId="29" />
+  <Access Scope="Call" UId="30">
+    <Instruction Name="REAL_TO_DINT" UId="31">
+      <Token Text="(" UId="32" />
+      <NamelessParameter UId="33">
+        <Access Scope="Call" UId="34">
+          <Instruction Name="LIMIT" UId="35">
+            <Token Text="(" UId="36" />
+            <Parameter Name="MN" UId="37">
+              <Blank UId="38" />
+              <Token Text=":=" UId="39" />
+              <Blank UId="40" />
+              <Access Scope="LiteralConstant" UId="41">
+                <Constant UId="42">
+                  <ConstantValue UId="44">0.0</ConstantValue>
+                </Constant>
+              </Access>
+            </Parameter>
+            <Token Text="," UId="45" />
+            <NewLine UId="46" />
+            <Blank Num="102" UId="47" />
+            <Parameter Name="IN" UId="48">
+              <Blank UId="49" />
+              <Token Text=":=" UId="50" />
+              <Blank UId="51" />
+              <Access Scope="Call" UId="52">
+                <Instruction Name="DINT_TO_REAL" UId="53">
+                  <Token Text="(" UId="54" />
+                  <NamelessParameter UId="55">
+                    <Access Scope="Call" UId="56">
+                      <Instruction Name="DWORD_TO_DINT" UId="57">
+                        <Token Text="(" UId="58" />
+                        <NamelessParameter UId="59">
+                          <Access Scope="GlobalVariable" UId="60">
+                            <Symbol UId="61">
+                              <Component Name="HSC_1" UId="62">
+                                <BooleanAttribute Name="HasQuotes" UId="63">true</BooleanAttribute>
+                              </Component>
+                              <Token Text=":P" UId="64" />
+                            </Symbol>
+                          </Access>
+                        </NamelessParameter>
+                        <Token Text=")" UId="66" />
+                      </Instruction>
+                    </Access>
+                  </NamelessParameter>
+                  <Token Text=")" UId="68" />
+                </Instruction>
+              </Access>
+              <Blank UId="69" />
+              <Token Text="*" UId="70" />
+              <Blank UId="71" />
+              <Access Scope="LiteralConstant" UId="72">
+                <Constant UId="73">
+                  <ConstantValue UId="75">4</ConstantValue>
+                </Constant>
+              </Access>
+            </Parameter>
+            <Token Text="," UId="76" />
+            <NewLine UId="77" />
+            <Blank Num="102" UId="78" />
+            <Parameter Name="MX" UId="79">
+              <Blank UId="80" />
+              <Token Text=":=" UId="81" />
+              <Blank UId="82" />
+              <Access Scope="LiteralConstant" UId="83">
+                <Constant UId="84">
+                  <ConstantValue UId="86">99999.0</ConstantValue>
+                </Constant>
+              </Access>
+            </Parameter>
+            <Token Text=")" UId="88" />
+          </Instruction>
+        </Access>
+      </NamelessParameter>
+      <Token Text=")" UId="90" />
+    </Instruction>
+  </Access>
+  <Token Text=";" UId="91" />
+</StructuredText></NetworkSource>
+          <ProgrammingLanguage>SCL</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="C" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="D" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>aktualni_poloha = HSC_1 × mm/puls (fourfold). HSC se nuluje na náběhu s2 (síť 1).
+Konstanta 1.488 = mm na 1 puls – LIMIT brání přetečení při chodu naprázdno.</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="F" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="10" CompositionName="Items">
+                <AttributeList>
+                  <Culture>cs-CZ</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>Poloha plata od s2 [mm]</Text>
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="12" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="13" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="14" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.OB>
+</Document>

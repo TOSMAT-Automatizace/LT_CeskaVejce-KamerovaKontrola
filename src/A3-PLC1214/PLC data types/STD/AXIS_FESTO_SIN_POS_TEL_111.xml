@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="None">
+    <Member Name="AXIS_TEL_111" Datatype="Struct">
+      <Member Name="SENDING" Datatype="Struct">
+        <Member Name="MODE_POS" Datatype="Int">
+          <Comment>
+            <MultiLanguageText Lang="cs-CZ">JOG = 7 REALATIVE = 2 ABSOLUTNĚ = 1 HOMING = 4</MultiLanguageText>
+            <MultiLanguageText Lang="en-US">JOG = 7 RELATIVE = 2 ABSOLUTE = 1 HOMING = 4</MultiLanguageText>
+          </Comment>
+        </Member>
+        <Member Name="ENABLE_AXIS" Datatype="Bool">
+          <Comment>
+            <MultiLanguageText Lang="cs-CZ">ENABLE</MultiLanguageText>
+            <MultiLanguageText Lang="en-US">ENABLE</MultiLanguageText>
+          </Comment>
+        </Member>
+        <Member Name="CANCEL_TRAVERSING" Datatype="Bool" />
+        <Member Name="INTERMEDIATE_STOP" Datatype="Bool" />
+        <Member Name="POSITIVE" Datatype="Bool" />
+        <Member Name="NEGATIVE" Datatype="Bool" />
+        <Member Name="JOG_1" Datatype="Bool" />
+        <Member Name="JOG_2" Datatype="Bool" />
+        <Member Name="FLI_REF" Datatype="Bool" />
+        <Member Name="ACK_ERROR" Datatype="Bool" />
+        <Member Name="EXECUTE_MODE" Datatype="Bool" />
+        <Member Name="POSITION" Datatype="DInt" />
+        <Member Name="VELOCITY" Datatype="DInt" />
+        <Member Name="OVER_V" Datatype="Int" />
+        <Member Name="OVER_ACC" Datatype="Int" />
+        <Member Name="OVER_DEC" Datatype="Int" />
+      </Member>
+      <Member Name="READ" Datatype="Struct">
+        <Member Name="AXIS_ENABLED" Datatype="Bool" />
+        <Member Name="AXIS_POS_OK" Datatype="Bool" />
+        <Member Name="AXIS_SP_FIXED" Datatype="Bool" />
+        <Member Name="AXIS_REF" Datatype="Bool" />
+        <Member Name="AXIS_WARN" Datatype="Bool" />
+        <Member Name="AXIS_ERROR" Datatype="Bool" />
+        <Member Name="LOCKOUT" Datatype="Bool" />
+        <Member Name="ACT_VELOCITY" Datatype="DInt" />
+        <Member Name="ACT_POSITION" Datatype="DInt" />
+        <Member Name="ACT_MODE" Datatype="Int" />
+        <Member Name="EPOS_ZSW_1" Datatype="Word" />
+        <Member Name="EPOS_ZSW_2" Datatype="Word" />
+        <Member Name="ACT_WARN" Datatype="Word" />
+        <Member Name="ACT_FAULT" Datatype="Word" />
+        <Member Name="ERROR" Datatype="Bool" />
+        <Member Name="STATUS" Datatype="Word" />
+        <Member Name="DIAGLD" Datatype="Word" />
+      </Member>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <Name>AXIS_FESTO_SIN_POS_TEL_111</Name>
+      <Namespace />
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

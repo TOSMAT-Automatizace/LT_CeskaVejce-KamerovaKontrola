@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="ALARM" Datatype="Struct">
+      <Member Name="ALARM_GLOBAL" Datatype="Bool">
+        <Comment>
+          <MultiLanguageText Lang="en-US">globální alarm</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="HERMA_ERROR" Datatype="Bool" />
+      <Member Name="ALARM_2" Datatype="Bool" />
+      <Member Name="ALARM_3" Datatype="Bool" />
+      <Member Name="ALARM_4" Datatype="Bool" />
+      <Member Name="ALARM_5" Datatype="Bool" />
+      <Member Name="air" Datatype="Bool">
+        <Comment>
+          <MultiLanguageText Lang="en-US">nedostatečný tlak vzduchu </MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="ALARM_7" Datatype="Bool" />
+      <Member Name="ALARM_8" Datatype="Bool" />
+      <Member Name="ALARM_9" Datatype="Bool" />
+      <Member Name="ALARM_10" Datatype="Bool" />
+      <Member Name="ALARM_11" Datatype="Bool" />
+      <Member Name="ALARM_12" Datatype="Bool" />
+      <Member Name="ALARM_13" Datatype="Bool" />
+      <Member Name="ALARM_14" Datatype="Bool" />
+      <Member Name="vypadek_safety_karty" Datatype="Bool" />
+    </Member>
+    <Member Name="WRONG" Datatype="Struct">
+      <Member Name="NENI_INICIALIZACE" Datatype="Bool" />
+      <Member Name="WRONG_global" Datatype="Bool" />
+      <Member Name="dvere_L_tevreny" Datatype="Bool" />
+      <Member Name="dvere_P_otevreny" Datatype="Bool" />
+      <Member Name="WRONG_4" Datatype="Bool" />
+      <Member Name="WRONG_5" Datatype="Bool" />
+      <Member Name="WRONG_6" Datatype="Bool" />
+      <Member Name="WRONG_7" Datatype="Bool" />
+      <Member Name="WRONG_8" Datatype="Bool" />
+      <Member Name="WRONG_9" Datatype="Bool" />
+      <Member Name="WRONG_10" Datatype="Bool" />
+      <Member Name="WRONG_11" Datatype="Bool" />
+      <Member Name="WRONG_12" Datatype="Bool" />
+      <Member Name="WRONG_13" Datatype="Bool" />
+      <Member Name="rop_glob_warning" Datatype="Bool" />
+      <Member Name="rop_active_autocale" Datatype="Bool" />
+    </Member>
+    <Member Name="OP0" Datatype="Struct">
+      <Member Name="ALARM" Datatype="Struct">
+        <Member Name="DOOR_ERROR" Datatype="Bool" />
+        <Member Name="ALARM_1" Datatype="Bool" />
+        <Member Name="ALARM_2" Datatype="Bool" />
+        <Member Name="ALARM_3" Datatype="Bool" />
+        <Member Name="ALARM_4" Datatype="Bool" />
+        <Member Name="ALARM_5" Datatype="Bool" />
+        <Member Name="ALARM_6" Datatype="Bool" />
+        <Member Name="ALARM_7" Datatype="Bool" />
+        <Member Name="ALARM_8" Datatype="Bool" />
+        <Member Name="ALARM_9" Datatype="Bool" />
+        <Member Name="ALARM_10" Datatype="Bool" />
+        <Member Name="ALARM_11" Datatype="Bool" />
+        <Member Name="ALARM_12" Datatype="Bool" />
+        <Member Name="ALARM_13" Datatype="Bool" />
+        <Member Name="ALARM_14" Datatype="Bool" />
+        <Member Name="ALARM_15" Datatype="Bool" />
+      </Member>
+      <Member Name="WRONG" Datatype="Struct">
+        <Member Name="WRONG_0" Datatype="Bool" />
+        <Member Name="WRONG_1" Datatype="Bool" />
+        <Member Name="WRONG_2" Datatype="Bool" />
+        <Member Name="WRONG_3" Datatype="Bool" />
+        <Member Name="WRONG_4" Datatype="Bool" />
+        <Member Name="WRONG_5" Datatype="Bool" />
+        <Member Name="WRONG_6" Datatype="Bool" />
+        <Member Name="WRONG_7" Datatype="Bool" />
+        <Member Name="WRONG_8" Datatype="Bool" />
+        <Member Name="WRONG_9" Datatype="Bool" />
+        <Member Name="WRONG_10" Datatype="Bool" />
+        <Member Name="WRONG_11" Datatype="Bool" />
+        <Member Name="WRONG_12" Datatype="Bool" />
+        <Member Name="WRONG_13" Datatype="Bool" />
+        <Member Name="WRONG_14" Datatype="Bool" />
+        <Member Name="WRONG_15" Datatype="Bool" />
+      </Member>
+      <Member Name="M_0" Datatype="Int" />
+      <Member Name="M_1" Datatype="Int" />
+      <Member Name="M_2" Datatype="Int" />
+      <Member Name="M_3" Datatype="Int" />
+      <Member Name="M_4" Datatype="Int" />
+      <Member Name="M_5" Datatype="Int" />
+      <Member Name="M_6" Datatype="Int" />
+      <Member Name="M_7" Datatype="Int" />
+      <Member Name="M_8" Datatype="Int" />
+      <Member Name="M_9" Datatype="Int" />
+      <Member Name="M_10" Datatype="Int" />
+      <Member Name="M_11" Datatype="Int" />
+      <Member Name="M_12" Datatype="Int" />
+      <Member Name="M_13" Datatype="Int" />
+      <Member Name="M_14" Datatype="Int" />
+      <Member Name="M_15" Datatype="Int" />
+    </Member>
+    <Member Name="OP1" Datatype="Struct">
+      <Member Name="ALARM" Datatype="Struct">
+        <Member Name="dvere_1" Datatype="Bool" />
+        <Member Name="ALARM_1" Datatype="Bool" />
+        <Member Name="ALARM_2" Datatype="Bool" />
+        <Member Name="ALARM_3" Datatype="Bool" />
+        <Member Name="ALARM_4" Datatype="Bool" />
+        <Member Name="ALARM_5" Datatype="Bool" />
+        <Member Name="ALARM_6" Datatype="Bool" />
+        <Member Name="hladina_mimo_mez" Datatype="Bool" />
+        <Member Name="ALARM_8" Datatype="Bool" />
+        <Member Name="ALARM_9" Datatype="Bool" />
+        <Member Name="ALARM_10" Datatype="Bool" />
+        <Member Name="ALARM_11" Datatype="Bool" />
+        <Member Name="ALARM_12" Datatype="Bool" />
+        <Member Name="ALARM_13" Datatype="Bool" />
+        <Member Name="ALARM_14" Datatype="Bool" />
+        <Member Name="ALARM_15" Datatype="Bool" />
+      </Member>
+      <Member Name="WRONG" Datatype="Struct">
+        <Member Name="WRONG_0" Datatype="Bool" />
+        <Member Name="WRONG_1" Datatype="Bool" />
+        <Member Name="WRONG_2" Datatype="Bool" />
+        <Member Name="WRONG_3" Datatype="Bool" />
+        <Member Name="WRONG_4" Datatype="Bool" />
+        <Member Name="WRONG_5" Datatype="Bool" />
+        <Member Name="WRONG_6" Datatype="Bool" />
+        <Member Name="WRONG_7" Datatype="Bool" />
+        <Member Name="WRONG_8" Datatype="Bool" />
+        <Member Name="WRONG_9" Datatype="Bool" />
+        <Member Name="WRONG_10" Datatype="Bool" />
+        <Member Name="WRONG_11" Datatype="Bool" />
+        <Member Name="WRONG_12" Datatype="Bool" />
+        <Member Name="WRONG_13" Datatype="Bool" />
+        <Member Name="WRONG_14" Datatype="Bool" />
+        <Member Name="WRONG_15" Datatype="Bool" />
+      </Member>
+      <Member Name="-Y7_KARUSEL" Datatype="Int" />
+      <Member Name="-Y9_ZARAZKA" Datatype="Int" />
+      <Member Name="M_2" Datatype="Int" />
+      <Member Name="M_3" Datatype="Int" />
+      <Member Name="M_4" Datatype="Int" />
+      <Member Name="M_5" Datatype="Int" />
+      <Member Name="M_6" Datatype="Int" />
+      <Member Name="M_7" Datatype="Int" />
+      <Member Name="M_8" Datatype="Int" />
+      <Member Name="M_9" Datatype="Int" />
+      <Member Name="M_10" Datatype="Int" />
+      <Member Name="M_11" Datatype="Int" />
+      <Member Name="M_12" Datatype="Int" />
+      <Member Name="M_13" Datatype="Int" />
+      <Member Name="M_14" Datatype="Int" />
+      <Member Name="M_15" Datatype="Int" />
+    </Member>
+    <Member Name="OP2" Datatype="Struct">
+      <Member Name="ALARM" Datatype="Struct">
+        <Member Name="dvere_1" Datatype="Bool" />
+        <Member Name="dvere_2" Datatype="Bool" />
+        <Member Name="dvere_3" Datatype="Bool" />
+        <Member Name="dvere_4" Datatype="Bool" />
+        <Member Name="paprsek" Datatype="Bool" />
+        <Member Name="porucha_svarovani" Datatype="Bool" />
+        <Member Name="rop_alarm" Datatype="Bool" />
+        <Member Name="servo_power_error" Datatype="Bool" />
+        <Member Name="servo_jog_error" Datatype="Bool" />
+        <Member Name="servo_homing" Datatype="Bool" />
+        <Member Name="Cel_podel_porucha" Datatype="Bool" />
+        <Member Name="vysoka_tuzka" Datatype="Bool" />
+        <Member Name="ALARM_12" Datatype="Bool" />
+        <Member Name="ALARM_13" Datatype="Bool" />
+        <Member Name="folie" Datatype="Bool" />
+        <Member Name="ALARM_15" Datatype="Bool" />
+      </Member>
+      <Member Name="WRONG" Datatype="Struct">
+        <Member Name="WRONG_0" Datatype="Bool" />
+        <Member Name="WRONG_1" Datatype="Bool" />
+        <Member Name="WRONG_2" Datatype="Bool" />
+        <Member Name="WRONG_3" Datatype="Bool" />
+        <Member Name="WRONG_4" Datatype="Bool" />
+        <Member Name="WRONG_5" Datatype="Bool" />
+        <Member Name="WRONG_6" Datatype="Bool" />
+        <Member Name="WRONG_7" Datatype="Bool" />
+        <Member Name="WRONG_8" Datatype="Bool" />
+        <Member Name="WRONG_9" Datatype="Bool" />
+        <Member Name="WRONG_10" Datatype="Bool" />
+        <Member Name="WRONG_11" Datatype="Bool" />
+        <Member Name="WRONG_12" Datatype="Bool" />
+        <Member Name="WRONG_13" Datatype="Bool" />
+        <Member Name="WRONG_14" Datatype="Bool" />
+        <Member Name="WRONG_15" Datatype="Bool" />
+      </Member>
+      <Member Name="A1" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA1</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="A2" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA2</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="A3" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA3</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="A4" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA4</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="A5" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA5</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="A6" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA6</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="A7" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA7</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="A8" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YA8</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="M_8" Datatype="Int" />
+      <Member Name="M_9" Datatype="Int" />
+      <Member Name="M_10" Datatype="Int" />
+      <Member Name="M_11" Datatype="Int" />
+      <Member Name="M_12" Datatype="Int" />
+      <Member Name="M_13" Datatype="Int" />
+      <Member Name="M_14" Datatype="Int" />
+      <Member Name="M_15" Datatype="Int" />
+    </Member>
+    <Member Name="OP3" Datatype="Struct">
+      <Member Name="ALARM" Datatype="Struct">
+        <Member Name="ALARM_0" Datatype="Bool" />
+        <Member Name="ALARM_1" Datatype="Bool" />
+        <Member Name="ALARM_2" Datatype="Bool" />
+        <Member Name="ALARM_3" Datatype="Bool" />
+        <Member Name="ALARM_4" Datatype="Bool" />
+        <Member Name="ALARM_5" Datatype="Bool" />
+        <Member Name="ALARM_6" Datatype="Bool" />
+        <Member Name="ALARM_7" Datatype="Bool" />
+        <Member Name="ALARM_8" Datatype="Bool" />
+        <Member Name="ALARM_9" Datatype="Bool" />
+        <Member Name="ALARM_10" Datatype="Bool" />
+        <Member Name="ALARM_11" Datatype="Bool" />
+        <Member Name="ALARM_12" Datatype="Bool" />
+        <Member Name="ALARM_13" Datatype="Bool" />
+        <Member Name="ALARM_14" Datatype="Bool" />
+        <Member Name="ALARM_15" Datatype="Bool" />
+      </Member>
+      <Member Name="WRONG" Datatype="Struct">
+        <Member Name="WRONG_0" Datatype="Bool" />
+        <Member Name="WRONG_1" Datatype="Bool" />
+        <Member Name="WRONG_2" Datatype="Bool" />
+        <Member Name="WRONG_3" Datatype="Bool" />
+        <Member Name="WRONG_4" Datatype="Bool" />
+        <Member Name="WRONG_5" Datatype="Bool" />
+        <Member Name="WRONG_6" Datatype="Bool" />
+        <Member Name="WRONG_7" Datatype="Bool" />
+        <Member Name="WRONG_8" Datatype="Bool" />
+        <Member Name="WRONG_9" Datatype="Bool" />
+        <Member Name="WRONG_10" Datatype="Bool" />
+        <Member Name="WRONG_11" Datatype="Bool" />
+        <Member Name="WRONG_12" Datatype="Bool" />
+        <Member Name="WRONG_13" Datatype="Bool" />
+        <Member Name="WRONG_14" Datatype="Bool" />
+        <Member Name="WRONG_15" Datatype="Bool" />
+      </Member>
+      <Member Name="B1" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB1 </MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="B2" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB2</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="B3" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB3</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="B4" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB4</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="B5" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB5</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="B6" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB6</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="B7" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB7</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="B8" Datatype="Int">
+        <Comment>
+          <MultiLanguageText Lang="en-US">-YB8</MultiLanguageText>
+        </Comment>
+      </Member>
+      <Member Name="M_8" Datatype="Int" />
+      <Member Name="M_9" Datatype="Int" />
+      <Member Name="M_10" Datatype="Int" />
+      <Member Name="M_11" Datatype="Int" />
+      <Member Name="M_12" Datatype="Int" />
+      <Member Name="M_13" Datatype="Int" />
+      <Member Name="M_14" Datatype="Int" />
+      <Member Name="M_15" Datatype="Int" />
+    </Member>
+    <Member Name="OP4" Datatype="Struct">
+      <Member Name="ALARM" Datatype="Struct">
+        <Member Name="odsavani_nefunguje" Datatype="Bool" />
+        <Member Name="ALARM_1" Datatype="Bool" />
+        <Member Name="ALARM_2" Datatype="Bool" />
+        <Member Name="ALARM_3" Datatype="Bool" />
+        <Member Name="ALARM_4" Datatype="Bool" />
+        <Member Name="ALARM_5" Datatype="Bool" />
+        <Member Name="ALARM_6" Datatype="Bool" />
+        <Member Name="ALARM_7" Datatype="Bool" />
+        <Member Name="ALARM_8" Datatype="Bool" />
+        <Member Name="ALARM_9" Datatype="Bool" />
+        <Member Name="ALARM_10" Datatype="Bool" />
+        <Member Name="ALARM_11" Datatype="Bool" />
+        <Member Name="ALARM_12" Datatype="Bool" />
+        <Member Name="ALARM_13" Datatype="Bool" />
+        <Member Name="ALARM_14" Datatype="Bool" />
+        <Member Name="ALARM_15" Datatype="Bool" />
+      </Member>
+      <Member Name="WRONG" Datatype="Struct">
+        <Member Name="WRONG_0" Datatype="Bool" />
+        <Member Name="WRONG_1" Datatype="Bool" />
+        <Member Name="WRONG_2" Datatype="Bool" />
+        <Member Name="WRONG_3" Datatype="Bool" />
+        <Member Name="WRONG_4" Datatype="Bool" />
+        <Member Name="WRONG_5" Datatype="Bool" />
+        <Member Name="WRONG_6" Datatype="Bool" />
+        <Member Name="WRONG_7" Datatype="Bool" />
+        <Member Name="WRONG_8" Datatype="Bool" />
+        <Member Name="WRONG_9" Datatype="Bool" />
+        <Member Name="WRONG_10" Datatype="Bool" />
+        <Member Name="WRONG_11" Datatype="Bool" />
+        <Member Name="WRONG_12" Datatype="Bool" />
+        <Member Name="WRONG_13" Datatype="Bool" />
+        <Member Name="WRONG_14" Datatype="Bool" />
+        <Member Name="WRONG_15" Datatype="Bool" />
+      </Member>
+      <Member Name="M_0" Datatype="Int" />
+      <Member Name="M_1" Datatype="Int" />
+      <Member Name="M_2" Datatype="Int" />
+      <Member Name="M_3" Datatype="Int" />
+      <Member Name="M_4" Datatype="Int" />
+      <Member Name="M_5" Datatype="Int" />
+      <Member Name="M_6" Datatype="Int" />
+      <Member Name="M_7" Datatype="Int" />
+      <Member Name="M_8" Datatype="Int" />
+      <Member Name="M_9" Datatype="Int" />
+      <Member Name="M_10" Datatype="Int" />
+      <Member Name="M_11" Datatype="Int" />
+      <Member Name="M_12" Datatype="Int" />
+      <Member Name="M_13" Datatype="Int" />
+      <Member Name="M_14" Datatype="Int" />
+      <Member Name="M_15" Datatype="Int" />
+    </Member>
+    <Member Name="OP5" Datatype="Struct">
+      <Member Name="ALARM" Datatype="Struct">
+        <Member Name="ALARM_0" Datatype="Bool" />
+        <Member Name="ALARM_1" Datatype="Bool" />
+        <Member Name="ALARM_2" Datatype="Bool" />
+        <Member Name="ALARM_3" Datatype="Bool" />
+        <Member Name="ALARM_4" Datatype="Bool" />
+        <Member Name="ALARM_5" Datatype="Bool" />
+        <Member Name="ALARM_6" Datatype="Bool" />
+        <Member Name="ALARM_7" Datatype="Bool" />
+        <Member Name="ALARM_8" Datatype="Bool" />
+        <Member Name="ALARM_9" Datatype="Bool" />
+        <Member Name="ALARM_10" Datatype="Bool" />
+        <Member Name="ALARM_11" Datatype="Bool" />
+        <Member Name="ALARM_12" Datatype="Bool" />
+        <Member Name="ALARM_13" Datatype="Bool" />
+        <Member Name="ALARM_14" Datatype="Bool" />
+        <Member Name="ALARM_15" Datatype="Bool" />
+      </Member>
+      <Member Name="WRONG" Datatype="Struct">
+        <Member Name="WRONG_0" Datatype="Bool" />
+        <Member Name="WRONG_1" Datatype="Bool" />
+        <Member Name="WRONG_2" Datatype="Bool" />
+        <Member Name="WRONG_3" Datatype="Bool" />
+        <Member Name="WRONG_4" Datatype="Bool" />
+        <Member Name="WRONG_5" Datatype="Bool" />
+        <Member Name="WRONG_6" Datatype="Bool" />
+        <Member Name="WRONG_7" Datatype="Bool" />
+        <Member Name="WRONG_8" Datatype="Bool" />
+        <Member Name="WRONG_9" Datatype="Bool" />
+        <Member Name="WRONG_10" Datatype="Bool" />
+        <Member Name="WRONG_11" Datatype="Bool" />
+        <Member Name="WRONG_12" Datatype="Bool" />
+        <Member Name="WRONG_13" Datatype="Bool" />
+        <Member Name="WRONG_14" Datatype="Bool" />
+        <Member Name="WRONG_15" Datatype="Bool" />
+      </Member>
+      <Member Name="M_0" Datatype="Int" />
+      <Member Name="M_1" Datatype="Int" />
+      <Member Name="M_2" Datatype="Int" />
+      <Member Name="M_3" Datatype="Int" />
+      <Member Name="M_4" Datatype="Int" />
+      <Member Name="M_5" Datatype="Int" />
+      <Member Name="M_6" Datatype="Int" />
+      <Member Name="M_7" Datatype="Int" />
+      <Member Name="M_8" Datatype="Int" />
+      <Member Name="M_9" Datatype="Int" />
+      <Member Name="M_10" Datatype="Int" />
+      <Member Name="M_11" Datatype="Int" />
+      <Member Name="M_12" Datatype="Int" />
+      <Member Name="M_13" Datatype="Int" />
+      <Member Name="M_14" Datatype="Int" />
+      <Member Name="M_15" Datatype="Int" />
+    </Member>
+    <Member Name="null" Datatype="Struct">
+      <Member Name="ALARM_0" Datatype="Bool" />
+      <Member Name="ALARM_1" Datatype="Bool" />
+      <Member Name="ALARM_2" Datatype="Bool" />
+      <Member Name="ALARM_3" Datatype="Bool" />
+      <Member Name="ALARM_4" Datatype="Bool" />
+      <Member Name="ALARM_5" Datatype="Bool" />
+      <Member Name="ALARM_6" Datatype="Bool" />
+      <Member Name="ALARM_7" Datatype="Bool" />
+      <Member Name="ALARM_8" Datatype="Bool" />
+      <Member Name="ALARM_9" Datatype="Bool" />
+      <Member Name="ALARM_10" Datatype="Bool" />
+      <Member Name="ALARM_11" Datatype="Bool" />
+      <Member Name="ALARM_12" Datatype="Bool" />
+      <Member Name="ALARM_13" Datatype="Bool" />
+      <Member Name="ALARM_14" Datatype="Bool" />
+      <Member Name="ALARM_15" Datatype="Bool" />
+    </Member>
+    <Member Name="alarmy" Datatype="Array[0..255] of Bool" />
+    <Member Name="alarm_line" Datatype="Int" />
+    <Member Name="wrong_line" Datatype="Int" />
+    <Member Name="alarm_op_1" Datatype="Int" />
+    <Member Name="wrong_op_1" Datatype="Int" />
+    <Member Name="alarm_op_2" Datatype="Int" />
+    <Member Name="wrong_op_2" Datatype="Int" />
+    <Member Name="alarm_op_3" Datatype="Int" />
+    <Member Name="wrong_op_3" Datatype="Int" />
+    <Member Name="alarm_op_4" Datatype="Int" />
+    <Member Name="wrong_op_4" Datatype="Int" />
+    <Member Name="alarm_op_5" Datatype="Int" />
+    <Member Name="wrong_op_5" Datatype="Int" />
+    <Member Name="T_tiskarna" Datatype="TON_TIME" Version="1.0" />
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>DB_ALARM</Name>
+      <Namespace />
+      <Number>100</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

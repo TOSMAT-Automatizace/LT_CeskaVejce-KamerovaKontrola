@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="None">
+    <Member Name="AXIS" Datatype="Struct">
+      <Member Name="SENDING" Datatype="Struct">
+        <Member Name="MC_POWER" Datatype="Struct">
+          <AttributeList>
+            <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+          </AttributeList>
+          <Member Name="ENABLE" Datatype="Bool" />
+          <Member Name="START_MODE" Datatype="Int" />
+          <Member Name="STOP_MODE" Datatype="Int" />
+        </Member>
+        <Member Name="MC_HOME" Datatype="Struct">
+          <AttributeList>
+            <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+          </AttributeList>
+          <Member Name="EXECUTE" Datatype="Bool" />
+          <Member Name="POSITION" Datatype="Real" />
+          <Member Name="MODE" Datatype="Int" />
+        </Member>
+        <Member Name="MC_MOVE_JOG" Datatype="Struct">
+          <AttributeList>
+            <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+          </AttributeList>
+          <Member Name="JOG_FORWARD" Datatype="Bool" />
+          <Member Name="JOG_BACKWARD" Datatype="Bool" />
+          <Member Name="VELOCITY" Datatype="Real" />
+          <Member Name="POSITION_CONTROLED" Datatype="Bool" />
+        </Member>
+        <Member Name="MC_RESET" Datatype="Struct">
+          <AttributeList>
+            <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+          </AttributeList>
+          <Member Name="EXECUTE" Datatype="Bool" />
+          <Member Name="RESTART" Datatype="Bool" />
+        </Member>
+        <Member Name="MC_MOVE_ABSOLUTE_JOG" Datatype="Struct">
+          <AttributeList>
+            <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+          </AttributeList>
+          <Member Name="EXECUTE" Datatype="Bool" />
+          <Member Name="POSITION" Datatype="Real" />
+          <Member Name="VELOCITY" Datatype="Real" />
+          <Member Name="DIRECTION" Datatype="Int" />
+        </Member>
+        <Member Name="MC_HALT" Datatype="Struct">
+          <AttributeList>
+            <BooleanAttribute Name="ExternalAccessible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalVisible" SystemDefined="true">false</BooleanAttribute>
+            <BooleanAttribute Name="ExternalWritable" SystemDefined="true">false</BooleanAttribute>
+          </AttributeList>
+          <Member Name="EXECUTE" Datatype="Bool" />
+        </Member>
+      </Member>
+      <Member Name="READ" Datatype="Struct">
+        <Member Name="MC_POWER" Datatype="Struct">
+          <Member Name="STATUS" Datatype="Bool" />
+          <Member Name="BUSY" Datatype="Bool" />
+          <Member Name="ERROR" Datatype="Bool" />
+          <Member Name="ERROR_ID" Datatype="Word" />
+          <Member Name="ERROR_INTO" Datatype="Word" />
+        </Member>
+        <Member Name="MC_HOME" Datatype="Struct">
+          <Member Name="DONE" Datatype="Bool" />
+          <Member Name="BUSY" Datatype="Bool" />
+          <Member Name="COMAND_ABORTED" Datatype="Bool" />
+          <Member Name="ERROR" Datatype="Bool" />
+          <Member Name="ERROR_ID" Datatype="Word" />
+          <Member Name="ERROR_INTO" Datatype="Word" />
+          <Member Name="REFERENCE_MARK_POSITION" Datatype="Real" />
+        </Member>
+        <Member Name="MC_MOVE_JOG" Datatype="Struct">
+          <Member Name="IN_VELOCITY" Datatype="Bool" />
+          <Member Name="BUSY" Datatype="Bool" />
+          <Member Name="COMAND_ABORTED" Datatype="Bool" />
+          <Member Name="ERROR" Datatype="Bool" />
+          <Member Name="ERROR_ID" Datatype="Word" />
+          <Member Name="ERROR_INTO" Datatype="Word" />
+        </Member>
+        <Member Name="MC_RESET" Datatype="Struct">
+          <Member Name="DONE" Datatype="Bool" />
+          <Member Name="BUSY" Datatype="Bool" />
+          <Member Name="ERROR" Datatype="Bool" />
+          <Member Name="ERROR_ID" Datatype="Word" />
+          <Member Name="ERROR_INTO" Datatype="Word" />
+        </Member>
+        <Member Name="MC_MOVE_ABSOLUTE" Datatype="Struct">
+          <Member Name="DONE" Datatype="Bool" />
+          <Member Name="BYSY" Datatype="Bool" />
+          <Member Name="COMAND_ABORTED" Datatype="Bool" />
+          <Member Name="ERROR" Datatype="Bool" />
+          <Member Name="ERROR_ID" Datatype="Word" />
+          <Member Name="ERROR_INTO" Datatype="Word" />
+        </Member>
+        <Member Name="MC_HALT" Datatype="Struct">
+          <Member Name="done" Datatype="Bool" />
+          <Member Name="BUSY" Datatype="Bool" />
+          <Member Name="error" Datatype="Bool" />
+          <Member Name="COMAD_ABORTED" Datatype="Bool" />
+          <Member Name="ERROR_ID" Datatype="Word" />
+          <Member Name="ERROR_INTO" Datatype="Word" />
+        </Member>
+      </Member>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <Name>AXIS_VIRT_N_CODE</Name>
+      <Namespace />
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="3" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="4" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="5" CompositionName="Items">
+            <AttributeList>
+              <Culture>cs-CZ</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+          <MultilingualTextItem ID="6" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

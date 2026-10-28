@@ -1,0 +1,50 @@
+﻿FUNCTION_BLOCK "FB_CamManual"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      xManEtiketa : Bool;   // ruční test etiketa
+      xManFolie : Bool;   // ruční test folie
+      tLightDelay : Time := T#100ms;   // náběh světel
+      tTrigPulse : Time := T#50ms;   // d0lka triggeru
+   END_VAR
+
+   VAR 
+      tonEt {InstructionName := 'TON_TIME'; LibVersion := '1.0'; S7_SetPoint := 'False'} : TON_TIME;
+      tpEt {InstructionName := 'TP_TIME'; LibVersion := '1.0'} : TP_TIME;
+      tonFo {InstructionName := 'TON_TIME'; LibVersion := '1.0'} : TON_TIME;
+      tpFo {InstructionName := 'TP_TIME'; LibVersion := '1.0'} : TP_TIME;
+   END_VAR
+
+
+BEGIN
+	// ---------- ETIKETA ----------
+	#tonEt(IN := #xManEtiketa,
+	       PT := #tLightDelay);
+	#tpEt(IN := #tonEt.Q,
+	      PT := #tTrigPulse);
+	
+	IF #xManEtiketa THEN
+	    "-KA1" := TRUE;
+	    "-KA2" := TRUE;
+	END_IF;
+	IF #tpEt.Q THEN
+	    "COG_ETIKETA_COG_ETIKETA_is3800-Trigger" := TRUE;
+	END_IF;
+	
+	// ---------- FÓLIE ----------
+	#tonFo(IN := #xManFolie,
+	       PT := #tLightDelay);
+	#tpFo(IN := #tonFo.Q,
+	      PT := #tTrigPulse);
+	
+	IF #xManFolie THEN
+	    "-KA3" := TRUE;
+	    "-KA4" := TRUE;
+	    "-KA5" := TRUE;
+	END_IF;
+	IF #tpFo.Q THEN
+	    "COG_FOLIE_L_is3800-Trigger" := TRUE;
+	    "COG_FOLIE_P_is3800-Trigger" := TRUE;
+	END_IF;
+END_FUNCTION_BLOCK
+
